@@ -1,0 +1,14 @@
+Elite Player created by A Brothers — 3.0.0
+- Renamed the app everywhere, including Open with.
+- Stable, in-place native switches; no Settings screen rebuild on each toggle.
+- Removed Scan's system folder picker, Permission Manager's folder-picker row, home App Info row, and all app-owned Cancel buttons except the requested update dialog.
+- Picture-only Markhor startup without the old fixed 1.8-second wait, no Connecting player toast.
+- Native modern Back dispatcher and one-level storage/type/mode/folder navigation.
+- WhatsApp Manager: official/business switches, category switches, and voice-note filtering in All Files.
+- Playback Speed show/hide switch.
+- Removed audio channel/output-route menus; Bluetooth Bypass remains only in Audio Settings (per-player Bluetooth preference, not control over another screen reader's speech).
+- GitHub version checking, ordered update popup, background DownloadManager APK download and user-approved installer flow.
+- Selected counts in Share/Delete labels; delete current file and continue with the following queue entry without leaving the player.
+- Video fullscreen with landscape preference and Back-to-normal-view.
+- MediaStore-first indexed scanning, short-lived invalidated cache, no repeated recursive folder probes and less playlist serialization.
+- Minimum Android 8 / target Android 17 SDK 37; release signing, R8 optimization and resource shrinking.
